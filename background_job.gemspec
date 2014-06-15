@@ -7,8 +7,8 @@ require "background_job/version"
 Gem::Specification.new do |s|
   s.name        = "background_job"
   s.version     = BackgroundJob::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
+  s.authors     = ["Narendran Kanagaraj"]
+  s.email       = ["kevin007.k@gmail.com"]
   s.homepage    = "TODO"
   s.summary     = "TODO: Summary of BackgroundJob."
   s.description = "TODO: Description of BackgroundJob."
