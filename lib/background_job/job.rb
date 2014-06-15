@@ -32,7 +32,7 @@ module BackgroundJob
     end
 
     def start_job
-	  self.status = INPROCESS
+	    self.status = INPROCESS
       self.start_time = Time.now
       self.save!
     end
@@ -44,7 +44,7 @@ module BackgroundJob
     end
 
     def fail_job exception
-	  self.status = FAILED
+	    self.status = FAILED
       self.end_time = Time.now
       self.error = "#{exception.message}\n#{exception.backtrace}"
       self.save!
